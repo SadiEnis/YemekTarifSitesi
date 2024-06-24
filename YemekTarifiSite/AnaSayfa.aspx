@@ -22,7 +22,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    &nbsp;<asp:DataList ID="DataList2" runat="server" Width="450px">
+    <asp:DataList ID="DataList2" runat="server" Width="450px">
         <ItemTemplate>
             <table class="auto-style7">
                 <tr>
