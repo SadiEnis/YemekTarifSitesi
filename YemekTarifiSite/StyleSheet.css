@@ -8,3 +8,8 @@ a:hover {
     font-size: 18px;
     color: yellow;
 }
+
+.tb {
+    border: 2px solid;
+    border-radius: 7px;
+}
