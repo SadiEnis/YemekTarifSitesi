@@ -16,13 +16,20 @@
         .auto-style11 {
             text-align: right;
         }
+        .auto-style13 {
+            text-align: right;
+            width: 109px;
+        }
+        .auto-style14 {
+            width: 375px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <strong>
     <asp:Label ID="Label3" runat="server" CssClass="auto-style7" Text="Label"></asp:Label>
     </strong>
-    <asp:DataList ID="DataList2" runat="server">
+    <asp:DataList ID="DataList2" runat="server" Width="450px" Height="415px">
         <ItemTemplate>
             <table class="auto-style8">
                 <tr>
@@ -43,4 +50,44 @@
             </table>
         </ItemTemplate>
     </asp:DataList>
+    <div style="border-width: thin; border-style: solid; margin: 35px; background-color: #32abf1;" class="auto-style14">
+        <strong>YORUM YAPMA PANELİ
+        </strong>
+        <asp:Panel ID="Panel1" runat="server">
+                <table class="auto-style8">
+                    <tr>
+                        <td class="auto-style13"><strong>Ad Soyad:</strong></td>
+                        <td>
+                            <asp:TextBox ID="txtAdSoyad" runat="server" Height="15px" Width="250px"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style13"><strong>Mail:</strong></td>
+                        <td>
+                            <asp:TextBox ID="txtMail" runat="server" Height="15px" Width="250px"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style13"><strong>Yorum:<br />
+                            <br />
+                            <br />
+                            </strong></td>
+                        <td>
+                            <asp:TextBox ID="txtYorum" runat="server" Height="75px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style13">&nbsp;</td>
+                        <td>
+                            <asp:Button ID="btnYorumYap" runat="server" Text="Yorum Yap" Width="100px" OnClick="btnYorumYap_Click" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style13">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </asp:Panel>
+    </div>
+    
 </asp:Content>

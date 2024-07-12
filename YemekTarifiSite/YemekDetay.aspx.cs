@@ -38,5 +38,24 @@ namespace YemekTarifiSite
                 DataList2.DataBind();
             }
         }
+
+        protected void btnYorumYap_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conn = db.GetConnection())
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("INSERT INTO tbl_Yorumlar (YorumAdSoyad, YorumMail, YorumIcerik, YemekID) VALUES (@p1, @p2, @p3, @p4)", conn);
+                cmd.Parameters.AddWithValue("@p1", txtAdSoyad.Text);
+                cmd.Parameters.AddWithValue("@p2", txtMail.Text);
+                cmd.Parameters.AddWithValue("@p3", txtYorum.Text);
+                cmd.Parameters.AddWithValue("@p4", tempYemekID);
+                cmd.ExecuteNonQuery();
+            }
+
+            txtAdSoyad.Text = "";
+            txtMail.Text = "";
+            txtYorum.Text = "";
+            Response.Write("<script>confirm('Yorum kaydedildi.')</script>");
+        }
     }
 }
