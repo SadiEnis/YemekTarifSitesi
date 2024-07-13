@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="Assets\header.png" />
     <Content Include="Assets\me200.jpg" />
     <Content Include="Assets\mucver.png" />
     <Content Include="GununYemegi.aspx" />
@@ -76,6 +77,7 @@
     <Content Include="StyleSheet.css" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
+    <Content Include="KategoriDetay.aspx" />
     <Content Include="YemekDetay.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +124,13 @@
     </Compile>
     <Compile Include="TarifOner.aspx.designer.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriDetay.aspx.designer.cs">
+      <DependentUpon>KategoriDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="YemekDetay.aspx.cs">
       <DependentUpon>YemekDetay.aspx</DependentUpon>
