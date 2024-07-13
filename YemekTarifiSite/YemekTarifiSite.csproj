@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="Assets\me200.jpg" />
     <Content Include="Assets\mucver.png" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
