@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\iletisim.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\iletisim.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\iletisim.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\iletisim.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,33 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Iletisim.aspx.cs",
-              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Iletisim.aspx.cs",
-              "RelativeDocumentMoniker": "YemekTarifiSite\\Iletisim.aspx.cs",
-              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Iletisim.aspx.cs",
-              "RelativeToolTip": "YemekTarifiSite\\Iletisim.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T15:37:46.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Iletisim.aspx",
-              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Iletisim.aspx",
-              "RelativeDocumentMoniker": "YemekTarifiSite\\Iletisim.aspx",
-              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Iletisim.aspx",
-              "RelativeToolTip": "YemekTarifiSite\\Iletisim.aspx",
+              "Title": "Admin.aspx",
+              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Admin.aspx",
+              "RelativeDocumentMoniker": "YemekTarifiSite\\Admin.aspx",
+              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Admin.aspx",
+              "RelativeToolTip": "YemekTarifiSite\\Admin.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-12T15:13:46.923Z",
+              "WhenOpened": "2024-07-14T06:59:23.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Admin.Master",
+              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Admin.Master",
+              "RelativeDocumentMoniker": "YemekTarifiSite\\Admin.Master",
+              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Admin.Master",
+              "RelativeToolTip": "YemekTarifiSite\\Admin.Master",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-14T06:58:53.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AnaSayfa.aspx",
               "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\AnaSayfa.aspx",
               "RelativeDocumentMoniker": "YemekTarifiSite\\AnaSayfa.aspx",
