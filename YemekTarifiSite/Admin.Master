@@ -10,10 +10,6 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         
-        .auto-style4 {
-            font-size: x-large;
-        }
-
         .auto-style5 {
             float: left;
             width: 200px;
@@ -23,12 +19,11 @@
         .auto-style6 {
             width: 100%;
         }
-        .auto-style7 {
-            height: 23px;
-            font-size: large;
-        }
         .auto-style8 {
             font-size: large;
+        }
+        .auto-style9 {
+            height: 28px;
         }
     </style>
 </head>
@@ -40,28 +35,29 @@
         <div style="margin-left: 300px; width: 700px; height: 20px;">&nbsp</div>
         <div style="margin-left: 300px; width: 700px; height: auto;">
             <div style="background-color: #0094ff;" class="auto-style5">
-                <strong><span class="auto-style4">MENÜLER</span></strong><hr style="color: #FFFFFF" dir="ltr" />
+                <strong><span class="auto-style8">MENÜLER</span></strong><hr style="color: #FFFFFF" dir="ltr" />
+                <br />
                 <table class="auto-style6">
                     <tr>
-                        <td class="auto-style7"><strong>Kategoriler</strong></td>
+                        <td class="auto-style9" style="border: thin solid #FFFFFF"><strong><a href="Kategoriler.aspx">Kategoriler</a></strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><strong>Yemekler</strong></td>
+                        <td style="border: thin solid #FFFFFF"><strong>Yemekler</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><strong>Yorumlar</strong></td>
+                        <td style="border: thin solid #FFFFFF"><strong>Yorumlar</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><strong>Mesajlar</strong></td>
+                        <td style="border: thin solid #FFFFFF"><strong>Mesajlar</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><strong>Günün Yemeği</strong></td>
+                        <td style="border: thin solid #FFFFFF"><strong>Günün Yemeği</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><strong>Öneriler</strong></td>
+                        <td style="border: thin solid #FFFFFF"><strong>Öneriler</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style8"><strong>Hakkımda</strong></td>
+                        <td style="border: thin solid #FFFFFF"><strong>Hakkımda</strong></td>
                     </tr>
                 </table>
             </div>

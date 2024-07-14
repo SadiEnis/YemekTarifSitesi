@@ -70,12 +70,15 @@
     <Content Include="Admin.aspx" />
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Assets\adminHeader.png" />
+    <Content Include="Assets\delete.png" />
     <Content Include="Assets\header.png" />
     <Content Include="Assets\me200.jpg" />
     <Content Include="Assets\mucver.png" />
+    <Content Include="Assets\update.png" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
+    <Content Include="Kategoriler.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
@@ -125,6 +128,13 @@
     </Compile>
     <Compile Include="Iletisim.aspx.designer.cs">
       <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kategoriler.aspx.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kategoriler.aspx.designer.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kullanici.Master.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
