@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\yemektarifisite\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -75,7 +75,8 @@
               "RelativeToolTip": "YemekTarifiSite\\Kategoriler.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T07:44:18.823Z"
+              "WhenOpened": "2024-07-14T07:44:18.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,9 +86,10 @@
               "RelativeDocumentMoniker": "YemekTarifiSite\\Kategoriler.aspx",
               "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Kategoriler.aspx",
               "RelativeToolTip": "YemekTarifiSite\\Kategoriler.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-14T07:34:13.087Z"
+              "WhenOpened": "2024-07-14T07:34:13.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
