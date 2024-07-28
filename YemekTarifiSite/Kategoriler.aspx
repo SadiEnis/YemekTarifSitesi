@@ -67,7 +67,9 @@
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAdi") %>'></asp:Label>
                         </td>
                         <td class="auto-style14">
-                            <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/Assets/delete.png" Width="30px" />
+                            <a href="Kategoriler.aspx?Kategoriid=<%# Eval("KategoriID") %>&islem=sil" onclick="return confirm('Bu kategori silinecek. Emin misiniz?');">
+                                <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/Assets/delete.png" Width="30px" />
+                            </a>
                         </td>
                         <td class="auto-style14">
                             <a href="KategoriGuncelle.aspx?Kategoriid=<%# Eval("KategoriID") %>">

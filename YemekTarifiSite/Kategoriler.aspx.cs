@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -10,8 +11,16 @@ namespace YemekTarifiSite
 {
     public partial class Kategoriler : System.Web.UI.Page
     {
+        string id = "";
+        string islem = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Page.IsPostBack == false)
+            {
+                id = Request.QueryString["Kategoriid"];
+                islem = Request.QueryString["islem"];
+            }
+
             using (SqlConnection con = Database.GetInstance().GetConnection())
             {
                 con.Open();
@@ -20,6 +29,17 @@ namespace YemekTarifiSite
                 DataList1.DataSource = dr;
                 DataList1.DataBind();
             }
+
+            if (islem == "sil")
+            {
+                using (SqlConnection con = Database.GetInstance().GetConnection())
+                {
+                    con.Open();
+                    SqlCommand cmdDelete = new SqlCommand($"DELETE FROM tbl_Kategoriler WHERE KategoriID = {id}", con);
+                    cmdDelete.ExecuteNonQuery();
+                }
+            }
+
             Panel1.Visible = false;
             Panel2.Visible = false;
         }
