@@ -42,7 +42,7 @@
                         <td class="auto-style9" style="border: thin solid #FFFFFF"><strong><a href="Kategoriler.aspx">Kategoriler</a></strong></td>
                     </tr>
                     <tr>
-                        <td style="border: thin solid #FFFFFF"><strong>Yemekler</strong></td>
+                        <td style="border: thin solid #FFFFFF"><strong><a href="Yemekler.aspx">Yemekler</a></strong></td>
                     </tr>
                     <tr>
                         <td style="border: thin solid #FFFFFF"><strong>Yorumlar</strong></td>

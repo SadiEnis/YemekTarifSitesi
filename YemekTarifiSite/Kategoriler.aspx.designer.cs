@@ -15,22 +15,13 @@ namespace YemekTarifiSite
     {
 
         /// <summary>
-        /// btnEkle control.
+        /// btnShow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEkle;
-
-        /// <summary>
-        /// btnCikar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCikar;
+        protected global::System.Web.UI.WebControls.Button btnShow;
 
         /// <summary>
         /// Panel1 control.
@@ -51,22 +42,13 @@ namespace YemekTarifiSite
         protected global::System.Web.UI.WebControls.DataList DataList1;
 
         /// <summary>
-        /// Button1 control.
+        /// btnShow2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnShow2;
 
         /// <summary>
         /// Panel2 control.

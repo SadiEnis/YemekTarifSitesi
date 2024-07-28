@@ -38,27 +38,33 @@
         .auto-style19 {
             font-weight: bold;
         }
+        .auto-style20 {
+            height: 23px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <table class="auto-style6">
         <tr>
-            <td class="auto-style16"><strong>
-                <asp:Button ID="btnEkle" runat="server" CssClass="auto-style15" Height="35px" Text="+" Width="35px" OnClick="btnEkle_Click" />
+            <td>
+                <table class="auto-style6">
+                    <tr>
+                        <td class="auto-style16"><strong>
+                <asp:Button ID="btnShow" runat="server" CssClass="auto-style15" Height="35px" Text="+" Width="35px" OnClick="btnShow_Click" />
             </strong></td>
-            <td class="auto-style16"><strong>
-                <asp:Button ID="btnCikar" runat="server" CssClass="auto-style15" Height="35px" Text="-" Width="35px" OnClick="btnCikar_Click" />
-            </strong></td>
-            <td class="auto-style8">
-                <strong>&nbsp;<span class="auto-style17">Kategoriler Listesi</span></strong></td>
+                        <td>
+                <strong><span class="auto-style17">Kategoriler Listesi</span></strong></td>
+                    </tr>
+                </table>
+            </td>
         </tr>
         <tr>
-            <td colspan="3">
+            <td>
                 <hr />
             </td>
         </tr>
     </table>
-    <asp:Panel ID="Panel1" runat="server">
+    <asp:Panel ID="Panel1" runat="server" Visible="False">
         <asp:DataList ID="DataList1" runat="server" Width="450px">
             <ItemTemplate>
                 <table class="auto-style11">
@@ -83,26 +89,25 @@
     </asp:Panel>
     <table class="auto-style6">
         <tr>
-            <td class="auto-style16"><strong>
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style15" Height="35px" Text="+" Width="35px" OnClick="Button1_Click" />
-            </strong></td>
-            <td class="auto-style16"><strong>
-                <asp:Button ID="Button2" runat="server" CssClass="auto-style15" Height="35px" Text="-" Width="35px" OnClick="Button2_Click" />
-            </strong></td>
-            <td class="auto-style8">
-                <strong>&nbsp;<span class="auto-style17">Kategori Ekle</span></strong></td>
+            <td class="auto-style16">
+                <strong>
+                <asp:Button ID="btnShow2" runat="server" CssClass="auto-style15" Height="35px" Text="+" Width="35px" OnClick="Button1_Click" />
+            </strong>
+            </td>
+            <td>
+                <strong><span class="auto-style17">Kategori Ekle</span></strong></td>
         </tr>
         <tr>
-            <td colspan="3">
+            <td colspan="2">
                 <hr />
             </td>
         </tr>
     </table>
-    <asp:Panel ID="Panel2" runat="server">
+    <asp:Panel ID="Panel2" runat="server" Visible="False">
         <table class="auto-style6">
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style20"></td>
+                <td class="auto-style20"></td>
             </tr>
             <tr>
                 <td class="auto-style18"><strong>Kategori Adı:</strong></td>

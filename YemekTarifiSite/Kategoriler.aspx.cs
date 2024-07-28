@@ -39,28 +39,33 @@ namespace YemekTarifiSite
                     cmdDelete.ExecuteNonQuery();
                 }
             }
-
-            Panel1.Visible = false;
-            Panel2.Visible = false;
         }
-        protected void btnEkle_Click(object sender, EventArgs e)
+        protected void btnShow_Click(object sender, EventArgs e)
         {
-            Panel1.Visible = true;
-        }
-
-        protected void btnCikar_Click(object sender, EventArgs e)
-        {
-            Panel1.Visible = false;
+            if (Panel1.Visible == false)
+            {
+                Panel1.Visible = true;
+                btnShow.Text = "-";
+            }
+            else if (Panel1.Visible == true)
+            {
+                Panel1.Visible = false;
+                btnShow.Text = "+";
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Panel2.Visible = true;
-        }
-
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Panel2.Visible = false;
+            if (Panel2.Visible == false)
+            {
+                Panel2.Visible = true;
+                btnShow2.Text = "-";
+            }
+            else if (Panel2.Visible == true)
+            {
+                Panel2.Visible = false;
+                btnShow2.Text = "+";
+            }
         }
 
         protected void btnKategoriEkle_Click(object sender, EventArgs e)
