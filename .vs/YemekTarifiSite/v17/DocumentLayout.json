@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\yemektarifisite\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\yemektarifisite\\kategoriler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\kategoriler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\yemektarifisite\\kategoriler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\kategoriler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\anasayfa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|d:\\ceng\\c#\\murat yucedag\\50 derste asp.net\\yemektarifsite\\yemektarifisite\\kategoriadmindetay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|solutionrelative:yemektarifisite\\kategoriadmindetay.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47D762D2-E5C5-46E5-B280-D630A6A4C75F}|YemekTarifiSite\\YemekTarifiSite.csproj|D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\yemektarifisite\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,59 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AnaSayfa.aspx",
-              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\AnaSayfa.aspx",
-              "RelativeDocumentMoniker": "YemekTarifiSite\\AnaSayfa.aspx",
-              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\AnaSayfa.aspx",
-              "RelativeToolTip": "YemekTarifiSite\\AnaSayfa.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-15T14:00:10.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Kategoriler.aspx.cs",
-              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Kategoriler.aspx.cs",
-              "RelativeDocumentMoniker": "YemekTarifiSite\\Kategoriler.aspx.cs",
-              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Kategoriler.aspx.cs",
-              "RelativeToolTip": "YemekTarifiSite\\Kategoriler.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T07:44:18.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "KategoriAdminDetay.aspx",
+              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\KategoriAdminDetay.aspx",
+              "RelativeDocumentMoniker": "YemekTarifiSite\\KategoriAdminDetay.aspx",
+              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\KategoriAdminDetay.aspx",
+              "RelativeToolTip": "YemekTarifiSite\\KategoriAdminDetay.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-28T07:02:25.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Kategoriler.aspx",
               "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Kategoriler.aspx",
               "RelativeDocumentMoniker": "YemekTarifiSite\\Kategoriler.aspx",
-              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Kategoriler.aspx",
-              "RelativeToolTip": "YemekTarifiSite\\Kategoriler.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Kategoriler.aspx*",
+              "RelativeToolTip": "YemekTarifiSite\\Kategoriler.aspx*",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-07-14T07:34:13.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Admin.aspx",
-              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Admin.aspx",
-              "RelativeDocumentMoniker": "YemekTarifiSite\\Admin.aspx",
-              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Admin.aspx",
-              "RelativeToolTip": "YemekTarifiSite\\Admin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-14T07:17:57.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Admin.Master",
               "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\Admin.Master",
               "RelativeDocumentMoniker": "YemekTarifiSite\\Admin.Master",
@@ -115,6 +85,19 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-07-14T07:24:03.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnaSayfa.aspx",
+              "DocumentMoniker": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\AnaSayfa.aspx",
+              "RelativeDocumentMoniker": "YemekTarifiSite\\AnaSayfa.aspx",
+              "ToolTip": "D:\\ceng\\C#\\Murat Yucedag\\50 Derste ASP.Net\\YemekTarifSite\\YemekTarifiSite\\AnaSayfa.aspx",
+              "RelativeToolTip": "YemekTarifiSite\\AnaSayfa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-28T06:58:37.093Z",
               "EditorCaption": ""
             }
           ]
