@@ -78,6 +78,7 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
+    <Content Include="KategoriAdminDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="TarifOner.aspx" />
@@ -128,6 +129,13 @@
     </Compile>
     <Compile Include="Iletisim.aspx.designer.cs">
       <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriAdminDetay.aspx.cs">
+      <DependentUpon>KategoriAdminDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriAdminDetay.aspx.designer.cs">
+      <DependentUpon>KategoriAdminDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kategoriler.aspx.cs">
       <DependentUpon>Kategoriler.aspx</DependentUpon>

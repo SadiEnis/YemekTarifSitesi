@@ -20,6 +20,40 @@ namespace YemekTarifiSite
                 DataList1.DataSource = dr;
                 DataList1.DataBind();
             }
+            Panel1.Visible = false;
+            Panel2.Visible = false;
+        }
+        protected void btnEkle_Click(object sender, EventArgs e)
+        {
+            Panel1.Visible = true;
+        }
+
+        protected void btnCikar_Click(object sender, EventArgs e)
+        {
+            Panel1.Visible = false;
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = true;
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Panel2.Visible = false;
+        }
+
+        protected void btnKategoriEkle_Click(object sender, EventArgs e)
+        {
+            using (SqlConnection conn = Database.GetInstance().GetConnection())
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand($"INSERT INTO tbl_Kategoriler (KategoriAdi) VALUES ('{txtAdi.Text}')", conn);
+                cmd.ExecuteNonQuery();
+            }
+
+            txtAdi.Text = "";
+            Response.Write("<script>confirm('Kaydedildi')</script>");
         }
     }
 }
