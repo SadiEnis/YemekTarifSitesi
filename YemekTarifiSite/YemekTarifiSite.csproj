@@ -85,6 +85,7 @@
     <Content Include="Web.config" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="YemekDetay.aspx" />
+    <Content Include="YemekGuncelle.aspx" />
     <Content Include="Yemekler.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +174,13 @@
     </Compile>
     <Compile Include="YemekDetay.aspx.designer.cs">
       <DependentUpon>YemekDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YemekGuncelle.aspx.cs">
+      <DependentUpon>YemekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YemekGuncelle.aspx.designer.cs">
+      <DependentUpon>YemekGuncelle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Yemekler.aspx.cs">
       <DependentUpon>Yemekler.aspx</DependentUpon>
