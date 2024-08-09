@@ -17,11 +17,6 @@
             height: 34px;
         }
 
-        .auto-style15 {
-            font-weight: bold;
-            font-size: medium;
-        }
-
         .auto-style16 {
             width: 35px;
         }
@@ -41,6 +36,10 @@
         .auto-style20 {
             height: 23px;
         }
+        .auto-style21 {
+            font-weight: bold;
+            font-size: x-large;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -50,7 +49,7 @@
                 <table class="auto-style6">
                     <tr>
                         <td class="auto-style16"><strong>
-                <asp:Button ID="btnShow" runat="server" CssClass="auto-style15" Height="35px" Text="+" Width="35px" OnClick="btnShow_Click" />
+                <asp:Button ID="btnShow" runat="server" CssClass="auto-style21" Height="35px" Text="+" Width="35px" OnClick="btnShow_Click" BackColor="#0094FF" BorderWidth="0px" />
             </strong></td>
                         <td>
                 <strong><span class="auto-style17">Kategoriler Listesi</span></strong></td>
@@ -91,7 +90,7 @@
         <tr>
             <td class="auto-style16">
                 <strong>
-                <asp:Button ID="btnShow2" runat="server" CssClass="auto-style15" Height="35px" Text="+" Width="35px" OnClick="Button1_Click" />
+                <asp:Button ID="btnShow2" runat="server" CssClass="auto-style21" Height="35px" Text="+" Width="35px" OnClick="Button1_Click" BackColor="#0094FF" BorderWidth="0px" />
             </strong>
             </td>
             <td>

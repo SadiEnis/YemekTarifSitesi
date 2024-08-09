@@ -87,6 +87,7 @@
     <Content Include="YemekDetay.aspx" />
     <Content Include="YemekGuncelle.aspx" />
     <Content Include="Yemekler.aspx" />
+    <Content Include="Yorumlar.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.aspx.cs">
@@ -188,6 +189,13 @@
     </Compile>
     <Compile Include="Yemekler.aspx.designer.cs">
       <DependentUpon>Yemekler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yorumlar.aspx.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yorumlar.aspx.designer.cs">
+      <DependentUpon>Yorumlar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
