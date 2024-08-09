@@ -31,7 +31,7 @@ namespace YemekTarifiSite
             {
                 conn.Open();
 
-                SqlCommand cmd2 = new SqlCommand("SELECT * FROM tbl_Yorumlar WHERE YemekID = @p2", conn);
+                SqlCommand cmd2 = new SqlCommand("SELECT * FROM tbl_Yorumlar WHERE YemekID = @p2 AND YorumOnay = 1", conn);
                 cmd2.Parameters.AddWithValue("@p2", tempYemekID);
                 SqlDataReader dr2 = cmd2.ExecuteReader();
                 DataList2.DataSource = dr2;

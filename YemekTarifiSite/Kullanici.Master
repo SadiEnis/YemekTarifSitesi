@@ -57,7 +57,7 @@
             <div style="background-color: #0094ff;" class="auto-style5">
                 <strong><span class="auto-style4">KATEGORİLER</span></strong><hr style="color: #FFFFFF" dir="ltr" />
                 <br />
-                <asp:DataList ID="DataList1" runat="server" Width="200px">
+                <asp:DataList ID="DataList1" runat="server" Width="200px" CssClass="auto-style4">
                     <ItemTemplate>
                         <div style="border: thin solid #FFFFFF">
                             <a href="KategoriDetay.aspx?Kategoriid=<%# Eval("KategoriID") %>">

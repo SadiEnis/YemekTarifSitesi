@@ -61,12 +61,12 @@
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("YorumAdSoyad") %>' CssClass="auto-style8"></asp:Label>
                         </td>
                         <td class="auto-style14">
-                            <a href="Yemekler.aspx?Yemekid=<%# Eval("YemekID") %>&islem=sil" onclick="return confirm('Bu kategori silinecek. Emin misiniz?');">
-                                <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/Assets/delete.png" Width="30px" />
-                            </a>
+                            <%-- <a href="Yorumlar.aspx?Yorumid=<%# Eval("YorumID") %>&islem=sil" onclick="return confirm('Bu kategori silinecek. Emin misiniz?');"> --%>
+                            <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/Assets/delete.png" Width="30px" />
+                            <%--  </a> --%>
                         </td>
                         <td class="auto-style14">
-                            <a href="YemekGuncelle.aspx?Yemekid=<%# Eval("YemekID") %>">
+                            <a href="YorumGuncelle.aspx?Yorumid=<%# Eval("YorumID") %>">
                                 <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/Assets/update.png" Width="30px" />
                             </a>
                         </td>
@@ -104,10 +104,13 @@
                                     <td class="auto-style13">
                                         <asp:Label ID="Label2" runat="server" CssClass="auto-style8" Text='<%# Eval("YorumAdSoyad") %>'></asp:Label>
                                     </td>
-                                    <td class="auto-style14"><a href='Yemekler.aspx?Yemekid=<%# Eval("YemekID") %>&amp;islem=sil' onclick="return confirm('Bu kategori silinecek. Emin misiniz?');">
+                                    <td class="auto-style14">
+                                        <%-- <a href='Yorumlar.aspx?YorumID=<%# Eval("YorumID") %>&islem=sil' onclick="return confirm('Bu yorum silinecek. Emin misiniz?');"> --%>
                                         <asp:Image ID="Image4" runat="server" Height="30px" ImageUrl="~/Assets/delete.png" Width="30px" />
-                                    </a></td>
-                                    <td class="auto-style14"><a href='YemekGuncelle.aspx?Yemekid=<%# Eval("YemekID") %>'>
+                                        <%-- </a> --%>
+
+                                    </td>
+                                    <td class="auto-style14"><a href='YorumGuncelle.aspx?Yorumid=<%# Eval("YorumID") %>'>
                                         <asp:Image ID="Image5" runat="server" Height="30px" ImageUrl="~/Assets/update.png" Width="30px" />
                                     </a></td>
                                 </tr>

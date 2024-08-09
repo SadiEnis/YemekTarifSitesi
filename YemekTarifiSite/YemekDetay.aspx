@@ -1,9 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Kullanici.Master" AutoEventWireup="true" CodeBehind="YemekDetay.aspx.cs" Inherits="YemekTarifiSite.YemekDetay" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-        .auto-style7 {
-            font-size: xx-large;
-        }
         .auto-style8 {
             width: 100%;
         }
@@ -23,11 +20,14 @@
         .auto-style14 {
             width: 375px;
         }
+        .auto-style15 {
+            font-size: xx-large;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <strong>
-    <asp:Label ID="Label3" runat="server" CssClass="auto-style7" Text="Label"></asp:Label>
+    <asp:Label ID="Label3" runat="server" CssClass="auto-style15" Text="Label"></asp:Label>
     </strong>
     <asp:DataList ID="DataList2" runat="server" Width="450px" Height="415px">
         <ItemTemplate>
