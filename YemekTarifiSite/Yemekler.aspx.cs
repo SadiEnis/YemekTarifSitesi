@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -45,11 +43,27 @@ namespace YemekTarifiSite
 
             if (islem == "sil")
             {
+                string kategori = "";
+                
+                using (SqlConnection con = Database.GetInstance().GetConnection())
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand($"SELECT * FROM tbl_Yemekler WHERE YEmekID = {id}", con);
+                    SqlDataReader dr = cmd.ExecuteReader();
+                    while (dr.Read())
+                        kategori = dr[7].ToString();
+                }
                 using (SqlConnection con = Database.GetInstance().GetConnection())
                 {
                     con.Open();
                     SqlCommand cmdDelete = new SqlCommand($"DELETE FROM tbl_Yemekler WHERE YemekID = {id}", con);
                     cmdDelete.ExecuteNonQuery();
+                }
+                using (SqlConnection conn = Database.GetInstance().GetConnection())
+                {
+                    conn.Open();
+                    SqlCommand cmdUpdate = new SqlCommand($"UPDATE tbl_Kategoriler SET KategoriAdet = KategoriAdet-1 WHERE KategoriID = {kategori}", conn);
+                    cmdUpdate.ExecuteNonQuery();
                 }
             }
 
