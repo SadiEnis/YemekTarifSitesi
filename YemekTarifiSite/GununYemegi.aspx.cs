@@ -14,7 +14,7 @@ namespace YemekTarifiSite
             using (SqlConnection con = db.GetConnection())
             {
                 con.Open();
-                SqlCommand cmdKategoriler = new SqlCommand("SELECT * FROM tbl_GununYemegi", con);
+                SqlCommand cmdKategoriler = new SqlCommand("SELECT * FROM tbl_Yemekler WHERE Durum = 1", con);
                 SqlDataReader reader = cmdKategoriler.ExecuteReader();
                 DataList2.DataSource = reader;
                 DataList2.DataBind();

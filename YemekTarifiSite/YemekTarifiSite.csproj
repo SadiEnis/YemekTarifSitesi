@@ -74,12 +74,15 @@
     <Content Include="Assets\header.png" />
     <Content Include="Assets\me200.jpg" />
     <Content Include="Assets\mucver.png" />
+    <Content Include="Assets\tick.png" />
     <Content Include="Assets\update.png" />
     <Content Include="GununYemegi.aspx" />
+    <Content Include="GununYemegiAdmin.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="Iletisim.aspx" />
     <Content Include="KategoriGuncelle.aspx" />
     <Content Include="Kategoriler.aspx" />
+    <Content Include="Mesajlar.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
@@ -120,6 +123,13 @@
     <Compile Include="GununYemegi.aspx.designer.cs">
       <DependentUpon>GununYemegi.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Hakkimizda.aspx.cs">
       <DependentUpon>Hakkimizda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -154,6 +164,13 @@
     </Compile>
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.designer.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TarifOner.aspx.cs">
