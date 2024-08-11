@@ -8,21 +8,21 @@ using System.Web.UI.WebControls;
 
 namespace YemekTarifiSite
 {
-    public partial class GununYemegiAdmin : System.Web.UI.Page
+    public partial class Tarifler : System.Web.UI.Page
     {
-        string yemekid = "";
         protected void Page_Load(object sender, EventArgs e)
         {
-            using (SqlConnection conn = Database.GetInstance().GetConnection())
+            using (SqlConnection con = Database.GetInstance().GetConnection())
             {
-                conn.Open();
-                SqlCommand cmd = new SqlCommand("SELECT * FROM tbl_Yemekler", conn);
+                con.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM tbl_Tarifler", con);
                 SqlDataReader dr = cmd.ExecuteReader();
 
                 DataList1.DataSource = dr;
                 DataList1.DataBind();
             }
         }
+
         protected void btnShow_Click(object sender, EventArgs e)
         {
             if (Panel1.Visible == false)
