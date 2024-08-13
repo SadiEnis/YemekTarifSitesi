@@ -74,7 +74,7 @@
     <Content Include="Assets\delete.png" />
     <Content Include="Assets\header.png" />
     <Content Include="Assets\me200.jpg" />
-    <Content Include="Assets\mucver.png" />
+    <Content Include="Assets\Media\mucver.png" />
     <Content Include="Assets\tick.png" />
     <Content Include="Assets\update.png" />
     <Content Include="GununYemegi.aspx" />
@@ -87,6 +87,7 @@
     <Content Include="Mesajlar.aspx" />
     <Content Include="StyleSheet.css" />
     <Content Include="Tarifler.aspx" />
+    <Content Include="TariflerGuncelle.aspx" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="KategoriDetay.aspx" />
@@ -196,6 +197,13 @@
     </Compile>
     <Compile Include="Tarifler.aspx.designer.cs">
       <DependentUpon>Tarifler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TariflerGuncelle.aspx.cs">
+      <DependentUpon>TariflerGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TariflerGuncelle.aspx.designer.cs">
+      <DependentUpon>TariflerGuncelle.aspx</DependentUpon>
     </Compile>
     <Compile Include="TarifOner.aspx.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>

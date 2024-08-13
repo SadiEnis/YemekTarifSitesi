@@ -53,6 +53,8 @@ namespace YemekTarifiSite
 
         protected void btnGuncelle_Click(object sender, EventArgs e)
         {
+            FileUpload1.SaveAs(Server.MapPath("/Assets/Media/" + FileUpload1.FileName));
+
             using (SqlConnection conn = Database.GetInstance().GetConnection())
             {
                 conn.Open();
