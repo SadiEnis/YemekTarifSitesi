@@ -18,7 +18,7 @@ namespace YemekTarifiSite
             yemek = Request.QueryString["Yemekid"];
             if (Page.IsPostBack == false)
             {
-                
+
                 using (SqlConnection con = Database.GetInstance().GetConnection())
                 {
                     con.Open();
@@ -33,22 +33,20 @@ namespace YemekTarifiSite
                         txtTarihi.Text = reader[5].ToString();
                         txtPuani.Text = reader[6].ToString();
                         kategori = reader[7].ToString();
-                        // txtMalzemeler.Text = reader[2].ToString(); // Kategori
                     }
-                    // txtMalzemeler.Text = ""; // Kategori
+                }
+                // Kategori Görüntüleme
+                using (SqlConnection con = Database.GetInstance().GetConnection())
+                {
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand($"SELECT * FROM tbl_Kategoriler WHERE KategoriID = {kategori}", con);
+                    SqlDataReader dr = cmd.ExecuteReader();
+
+                    while (dr.Read())
+                        txtKategori.Text = dr[1].ToString();
                 }
             }
 
-            // Kategori Görüntüleme
-            using (SqlConnection con = Database.GetInstance().GetConnection())
-            {
-                con.Open();
-                SqlCommand cmd = new SqlCommand($"SELECT * FROM tbl_Kategoriler WHERE KategoriID = {kategori}", con);
-                SqlDataReader dr = cmd.ExecuteReader();
-
-                while (dr.Read())
-                    txtKategori.Text = dr[1].ToString();
-            }
         }
 
         protected void btnGuncelle_Click(object sender, EventArgs e)
@@ -58,10 +56,12 @@ namespace YemekTarifiSite
             using (SqlConnection conn = Database.GetInstance().GetConnection())
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand($"UPDATE tbl_Yemekler SET YemekAdi = @p1, YemekMalzemeleri = @p2, YemekTarifi = @p3", conn);
+                SqlCommand cmd = new SqlCommand($"UPDATE tbl_Yemekler SET YemekAdi = @p1, YemekMalzemeleri = @p2, YemekTarifi = @p3, YemekResim = @p4 WHERE YemekID = @p5", conn);
                 cmd.Parameters.AddWithValue("@p1", txtYemekAdi.Text);
                 cmd.Parameters.AddWithValue("@p2", txtMalzemeler.Text);
                 cmd.Parameters.AddWithValue("@p3", txtTarifi.Text);
+                cmd.Parameters.AddWithValue("@p4", "~/Assets/Media/" + FileUpload1.FileName);
+                cmd.Parameters.AddWithValue("@p5", yemek);
 
                 cmd.ExecuteNonQuery();
                 Response.Write("<script>confirm('Güncellendi')</script>");
